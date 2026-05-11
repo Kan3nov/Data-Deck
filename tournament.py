@@ -1,6 +1,6 @@
-from ex2 import HealingCreatureFactory, TransformCreatureFactory, \
-                AggressiveStrategy, DefensiveStrategy, NormalStrategy
+from ex2 import AggressiveStrategy, DefensiveStrategy, NormalStrategy
 from ex2.battle_strat_base import BattleStrategy
+from ex1 import HealingCreatureFactory, TransformCreatureFactory
 from ex0.factory_base import CreatureFactory
 from ex2.battle_strategies import InvalidCreature
 
